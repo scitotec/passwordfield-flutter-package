@@ -169,6 +169,7 @@ class PasswordFieldState extends State<PasswordField> {
                     borderRadius: widget.backgroundBorderRadius)
                 : null,
             child: TextField(
+              cursorColor: Colors.white,
               maxLength: widget.maxLength,
               controller: widget.controller,
               obscureText: obscureText,
